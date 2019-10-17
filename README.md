@@ -13,7 +13,8 @@ Control Tower is the composition of many AWS services
 * [AWS SSO](https://docs.aws.amazon.com/en_pv/singlesignon/index.html) - integrated with Microsoft AD on-prem and cloud/azure
 * [Organizations](https://docs.aws.amazon.com/en_pv/organizations/index.html)
     * [Service Control Policies](https://docs.aws.amazon.com/en_pv/organizations/latest/userguide/orgs_manage_policies_scp.html) - central control over the maximum available permissions for all accounts in your organization, allowing you to ensure your accounts stay within your organization’s access control guidelines
-* [AWS Config](https://docs.aws.amazon.com/en_pv/config/index.html) - monitor for compliance
+* Guardrails - two kinds of guardrails exist: preventive (block) and detective (after the fact notification of non-compliance)
+    * implemented as [AWS Config](https://docs.aws.amazon.com/en_pv/config/index.html) - monitor for compliance
 * [Service Catalog](https://docs.aws.amazon.com/servicecatalog/) - self-service provisioning of cloud products
 
 ## Resources
